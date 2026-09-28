@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wfgilman/balancer/server"
+	"load-balancer/server"
 )
 
 const (

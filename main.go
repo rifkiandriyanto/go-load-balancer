@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wfgilman/balancer/backend"
-	"github.com/wfgilman/balancer/pool"
-	"github.com/wfgilman/balancer/proxy"
+	"load-balancer/backend"
+	"load-balancer/pool"
+	"load-balancer/proxy"
 )
 
 var serverPool *pool.Pool

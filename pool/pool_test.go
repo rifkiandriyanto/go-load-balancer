@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wfgilman/balancer/server"
+	"load-balancer/server"
 )
 
 type stubServer struct {

@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/wfgilman/balancer/backend"
-	"github.com/wfgilman/balancer/pool"
-	"github.com/wfgilman/balancer/utils"
+	"load-balancer/backend"
+	"load-balancer/pool"
+	"load-balancer/utils"
 )
 
 func New(targetAddr string) *httputil.ReverseProxy {
